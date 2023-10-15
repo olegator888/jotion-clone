@@ -22,7 +22,7 @@ const Heading = () => {
       </h3>
       {isLoading && (
         <div className="w-full flex justify-center">
-          <Spinner size="large" />
+          <Spinner size="lg" />
         </div>
       )}
       {isAuthenticated && !isLoading && (
